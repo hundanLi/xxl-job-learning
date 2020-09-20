@@ -1,0 +1,13 @@
+
+server:
+  port: 8090
+
+xxl:
+  job:
+    executor:
+      admin-addresses: http://ubuntu.wsl:7070/xxl-job-admin
+      appname: xxl-job-excutor-springboot-app
+      port: 9999
+      log-path: ./logs/xxl-job
+
+
